@@ -9,6 +9,7 @@ rds_password = rds_config.db_password
 rds_db = rds_config.db_name
 
 # for converting date to string
+
 # Extract datetime values
 def Datetime_toString(date: datetime):
     if date is not None:
