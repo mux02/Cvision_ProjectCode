@@ -1,0 +1,121 @@
+body {
+  background-color: #E0FFE4 !important;
+}
+
+/* Start Login   */
+
+.nav-sh {
+  background-color: #F6FCFF;
+  box-shadow: 0px 2px 7px 1px rgba(176, 208, 184, 0.75);
+}
+
+.bg-form {
+  background-color: transparent;
+}
+
+input {
+  border: 1px solid black !important;
+}
+
+.b-color {
+  background-color: #75DF7E !important;
+  border: none !important;
+}
+
+.f-width {
+  width: 40% !important;
+}
+
+.a-pass {
+  color: red;
+  transition: 0.2s all;
+}
+
+.a-pass:hover {
+  color: darkred;
+}
+
+.b-color:hover {
+  background-color: #03ac11 !important;
+}
+
+.nav-img{
+  width: 8%;
+  object-fit: contain;
+}
+
+/* End Login   */
+
+/* Start main   */
+
+.pic-section {
+  background: #aed6f2;
+  background: linear-gradient(180deg, #aed6f298 0%, #7cfdd6a4 80%);
+  padding: 2rem;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.img-input {
+  all: unset;
+  background-color: #E0FFE4;
+  padding: 3rem;
+}
+
+.custom-file-input {
+  visibility: hidden;
+  position: absolute;
+}
+
+.custom-file-label {
+  display: inline-block;
+  padding: 10px;
+  background-color: #6cd87736;
+  border: 2px dotted black;
+  cursor: pointer;
+  text-align: center;
+  padding: 2rem;
+}
+
+.f-name {
+
+  background-color: #F3F8FF;
+  border-radius: 0.5rem;
+  box-shadow: 1px 4px 9px 0px rgba(160, 160, 160, 0.75);
+}
+
+.input-submit {
+  outline: none;
+  border: none;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #5AC59E;
+  box-shadow: 1px 4px 9px 0px rgba(160, 160, 160, 0.75);
+  color: rgba(0, 0, 0, 0.548);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.cam-side {
+  background: #aed6f2;
+  background: linear-gradient(180deg, #aed6f298 0%, #7cfdd6a4 80%);
+  height: auto;
+  box-shadow: -6px 3px 13px 0px rgba(204, 204, 204, 0.75);
+}
+
+.cam {
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-shd {
+  box-shadow: -1px 1px 7px 4px rgba(160, 160, 160, 0.75);
+}
+
+/* End main   */
